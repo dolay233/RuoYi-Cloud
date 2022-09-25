@@ -1,0 +1,36 @@
+2022-04-19 16:18:26,333 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-04-19 16:18:27,601 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-04-19 16:18:27,603 INFO listen for service meta change
+
+2022-04-19 16:18:31,276 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.0.93:8848], new: [192.168.0.93:8848]
+
+2022-04-19 16:19:14,426 INFO creating empty service public:DEFAULT_GROUP@@normandy-user
+
+2022-04-19 16:19:15,104 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@normandy-user","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1650356354428,"checksum":"671c83734012aa56eae12b5cc05b9e40","clusterMap":{},"empty":true}
+
+2022-04-19 16:19:15,109 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.0.93#8084#DEFAULT#DEFAULT_GROUP@@normandy-user","ip":"192.168.0.93","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@normandy-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1650356354421,"marked":false,"app":"normandy-user","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-04-19 16:19:15,245 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@normandy-user, value: {"instanceList":[{"instanceId":"192.168.0.93#8084#DEFAULT#DEFAULT_GROUP@@normandy-user","ip":"192.168.0.93","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@normandy-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1650356354421,"marked":false,"app":"normandy-user","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-04-19 16:19:21,653 INFO creating empty service public:DEFAULT_GROUP@@normandy-basic
+
+2022-04-19 16:19:21,653 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@normandy-basic","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1650356361653,"checksum":"33cd78bff94f68d2d727582111341004","clusterMap":{},"empty":true}
+
+2022-04-19 16:19:21,654 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.0.93#8081#DEFAULT#DEFAULT_GROUP@@normandy-basic","ip":"192.168.0.93","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@normandy-basic","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1650356361653,"marked":false,"app":"normandy-basic","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-04-19 16:19:21,654 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@normandy-basic, value: {"instanceList":[{"instanceId":"192.168.0.93#8081#DEFAULT#DEFAULT_GROUP@@normandy-basic","ip":"192.168.0.93","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@normandy-basic","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1650356361653,"marked":false,"app":"normandy-basic","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-04-19 17:18:37,661 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@normandy-user, value: {"instanceList":[]}
+
+2022-04-19 17:18:38,792 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@normandy-basic, value: {"instanceList":[]}
+
+2022-04-19 17:20:47,612 WARN namespace : public, [DEFAULT_GROUP@@normandy-basic] services are automatically cleaned
+
+2022-04-19 17:20:47,619 WARN namespace : public, [DEFAULT_GROUP@@normandy-user] services are automatically cleaned
+
+2022-04-19 17:20:47,622 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@normandy-basic","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1650359918792,"checksum":"cc256d76019b0ff2df107f17965d22f6","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@normandy-basic","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2022-04-19 17:20:47,622 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@normandy-user","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1650359917661,"checksum":"b72f9ff277387b883cb765870388b62b","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@normandy-user","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+

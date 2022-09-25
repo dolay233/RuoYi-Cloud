@@ -1,0 +1,120 @@
+2022-06-16 17:07:13,388 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-06-16 17:20:56,719 INFO DEFAULT_GROUP@@mogu-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:20:56,719 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-admin, ips: 192.168.101.11:8601_true,
+
+2022-06-16 17:24:55,629 INFO DEFAULT_GROUP@@mogu-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:24:55,629 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-admin, ips: 
+
+2022-06-16 17:25:26,469 INFO DEFAULT_GROUP@@mogu-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:25:26,469 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-admin, ips: 192.168.101.11:8601_true,
+
+2022-06-16 17:33:53,961 INFO DEFAULT_GROUP@@mogu-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8607:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:33:53,961 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-gateway, ips: 192.168.101.11:8607_true,
+
+2022-06-16 17:34:04,613 INFO DEFAULT_GROUP@@mogu-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8606:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:34:04,614 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-monitor, ips: 192.168.101.11:8606_true,
+
+2022-06-16 17:34:30,286 INFO DEFAULT_GROUP@@mogu-picture {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:34:30,286 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-picture, ips: 192.168.101.11:8602_true,
+
+2022-06-16 17:35:28,328 INFO DEFAULT_GROUP@@mogu-spider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8608:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:35:28,328 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-spider, ips: 192.168.101.11:8608_true,
+
+2022-06-16 17:35:55,435 INFO DEFAULT_GROUP@@mogu-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8604:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:35:55,435 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-sms, ips: 192.168.101.11:8604_true,
+
+2022-06-16 18:19:29,704 INFO {POS} {IP-DISABLED} valid: 192.168.101.11:8601@DEFAULT@DEFAULT_GROUP@@mogu-admin, region: unknown, msg: client timeout after 15000, last beat: 1655374456932
+
+2022-06-16 18:19:29,704 INFO {POS} {IP-DISABLED} valid: 192.168.101.11:8607@DEFAULT@DEFAULT_GROUP@@mogu-gateway, region: unknown, msg: client timeout after 15000, last beat: 1655374459181
+
+2022-06-16 18:19:29,704 INFO {POS} {IP-DISABLED} valid: 192.168.101.11:8608@DEFAULT@DEFAULT_GROUP@@mogu-spider, region: unknown, msg: client timeout after 15000, last beat: 1655374458693
+
+2022-06-16 18:19:29,704 INFO {POS} {IP-DISABLED} valid: 192.168.101.11:8606@DEFAULT@DEFAULT_GROUP@@mogu-monitor, region: unknown, msg: client timeout after 15000, last beat: 1655374459953
+
+2022-06-16 18:19:29,711 INFO {POS} {IP-DISABLED} valid: 192.168.101.11:8604@DEFAULT@DEFAULT_GROUP@@mogu-sms, region: unknown, msg: client timeout after 15000, last beat: 1655374460809
+
+2022-06-16 18:19:29,711 INFO {POS} {IP-DISABLED} valid: 192.168.101.11:8602@DEFAULT@DEFAULT_GROUP@@mogu-picture, region: unknown, msg: client timeout after 15000, last beat: 1655374458050
+
+2022-06-16 18:19:29,712 INFO service: DEFAULT_GROUP@@mogu-admin {POS} {IP-ENABLED} valid: 192.168.101.11:8601@DEFAULT, region: unknown, msg: client beat ok
+
+2022-06-16 18:19:29,717 INFO DEFAULT_GROUP@@mogu-spider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8608:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-16 18:19:29,717 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-spider, ips: 
+
+2022-06-16 18:19:29,717 INFO DEFAULT_GROUP@@mogu-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8607:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-16 18:19:29,717 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-gateway, ips: 
+
+2022-06-16 18:19:29,717 INFO DEFAULT_GROUP@@mogu-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8606:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-16 18:19:29,717 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-monitor, ips: 
+
+2022-06-16 18:19:29,717 INFO DEFAULT_GROUP@@mogu-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:29,717 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-admin, ips: 
+
+2022-06-16 18:19:29,717 INFO DEFAULT_GROUP@@mogu-picture {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8602:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-16 18:19:29,717 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-picture, ips: 
+
+2022-06-16 18:19:29,717 INFO DEFAULT_GROUP@@mogu-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8604:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-16 18:19:29,717 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-sms, ips: 
+
+2022-06-16 18:19:30,813 INFO DEFAULT_GROUP@@mogu-picture {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:30,813 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-picture, ips: 192.168.101.11:8602_true,
+
+2022-06-16 18:19:31,460 INFO DEFAULT_GROUP@@mogu-spider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8608:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:31,460 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-spider, ips: 192.168.101.11:8608_true,
+
+2022-06-16 18:19:31,957 INFO DEFAULT_GROUP@@mogu-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8607:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:31,957 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-gateway, ips: 192.168.101.11:8607_true,
+
+2022-06-16 18:19:32,722 INFO DEFAULT_GROUP@@mogu-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8606:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:32,722 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-monitor, ips: 192.168.101.11:8606_true,
+
+2022-06-16 18:19:33,579 INFO DEFAULT_GROUP@@mogu-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8604:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:33,579 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-sms, ips: 192.168.101.11:8604_true,
+
+2022-06-16 18:19:34,698 INFO DEFAULT_GROUP@@mogu-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.11:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:34,698 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-admin, ips: 192.168.101.11:8601_true,
+
+2022-06-16 18:19:46,430 INFO DEFAULT_GROUP@@mogu-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:46,431 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-admin, ips: 
+
+2022-06-16 18:19:46,450 INFO DEFAULT_GROUP@@mogu-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8607:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:46,450 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-gateway, ips: 
+
+2022-06-16 18:19:46,507 INFO DEFAULT_GROUP@@mogu-picture {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:46,507 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-picture, ips: 
+
+2022-06-16 18:19:46,549 INFO DEFAULT_GROUP@@mogu-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8604:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:46,549 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-sms, ips: 
+
+2022-06-16 18:19:46,561 INFO DEFAULT_GROUP@@mogu-spider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8608:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:46,561 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-spider, ips: 
+
+2022-06-16 18:19:48,546 INFO DEFAULT_GROUP@@mogu-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.11:8606:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 18:19:48,546 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@mogu-monitor, ips: 
+

@@ -1,0 +1,50 @@
+2022-04-19 16:18:26,318 INFO raft peers changed: [Member{ip='192.168.0.93', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-04-19 16:18:26,359 INFO initializing Raft sub-system
+
+2022-04-19 16:18:26,360 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2022-04-19 16:18:26,363 INFO cache loaded, datum count: 0, current term: 0
+
+2022-04-19 16:18:26,363 INFO finish to load data from disk, cost: 4 ms.
+
+2022-04-19 16:18:26,367 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-04-19 16:18:27,574 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-04-19 16:18:27,603 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-04-19 16:18:31,273 WARN start to close old raft protocol!!!
+
+2022-04-19 16:18:31,273 WARN stop old raft protocol task for notifier
+
+2022-04-19 16:18:31,273 WARN stop old raft protocol task for master task
+
+2022-04-19 16:18:31,273 WARN stop old raft protocol task for heartbeat task
+
+2022-04-19 16:18:31,273 WARN clean old cache datum for old raft
+
+2022-04-19 16:18:31,273 WARN start to close old raft protocol!!!
+
+2022-04-19 16:18:31,273 WARN stop old raft protocol task for notifier
+
+2022-04-19 16:18:31,273 WARN stop old raft protocol task for master task
+
+2022-04-19 16:18:31,273 WARN stop old raft protocol task for heartbeat task
+
+2022-04-19 16:18:31,273 WARN clean old cache datum for old raft
+
+2022-04-19 16:18:31,273 WARN start to move old raft protocol metadata
+
+2022-04-19 16:18:31,276 WARN start to move old raft protocol metadata
+
+2022-04-19 16:18:31,277 INFO raft peers changed: [Member{ip='192.168.0.93', port=8848, state=UP, extendInfo={lastRefreshTime=1650356311276, raftPort=7848, version=1.4.3}}]
+
+2022-04-19 16:19:14,436 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@normandy-user
+
+2022-04-19 16:19:21,653 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@normandy-basic
+
+2022-04-19 17:20:47,619 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@normandy-basic
+
+2022-04-19 17:20:47,622 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@normandy-user
+
