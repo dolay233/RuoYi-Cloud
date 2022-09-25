@@ -1,1 +1,0 @@
-taskkill /f /t /im redis-server.exe
