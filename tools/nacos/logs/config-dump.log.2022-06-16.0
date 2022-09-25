@@ -1,0 +1,62 @@
+2022-06-16 17:09:42,111 INFO [dump-all-ok] mogu-admin.yaml+dev, 1592646430000, length=4373, md5=ce8eef81522776ceefe77d670af17d49
+
+2022-06-16 17:09:42,111 INFO [dump-all-ok] mogu-gateway.yaml+dev, 1592646830000, length=253, md5=b3aafe1d3548e30b9a50e5b83e76322c
+
+2022-06-16 17:09:42,111 INFO [dump-all-ok] mogu-monitor.yaml+dev, 1592646857000, length=1270, md5=2fa47a5fe46b4bff73827e388adff194
+
+2022-06-16 17:09:42,126 INFO [dump-all-ok] mogu-picture.yaml+dev, 1592646882000, length=3410, md5=ae1488fad68d12c0c21657b10cc786ee
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-sms.yaml+dev, 1592646901000, length=1983, md5=c305f6be9a4ba0cad2103891517aa4af
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-spider.yaml+dev, 1592646919000, length=3107, md5=93264bdf76cc2b0384ce28d2f2463811
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-web.yaml+dev, 1592646984000, length=5301, md5=233689198acc543aa89350d3f23058a2
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-admin-dev.yaml+dev, 1621429263000, length=4076, md5=bed41585ef24bad85f8bbc63a4ffce8c
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-gateway-dev.yaml+dev, 1592648417000, length=253, md5=b3aafe1d3548e30b9a50e5b83e76322c
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-monitor-dev.yaml+dev, 1607170954000, length=1261, md5=a78943f2429bbe46c8c5c0983a2ccb53
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-picture-dev.yaml+dev, 1603443137000, length=3442, md5=2bde327418e18e7fe54fae7b8cdeacaa
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-search-dev.yaml+dev, 1601982644000, length=1628, md5=385c6128a8c545119c9adcb8934882df
+
+2022-06-16 17:09:42,142 INFO [dump-all-ok] mogu-sms-dev.yaml+dev, 1601977675000, length=1683, md5=70a72d69cd1bd59adcc0b60c18509b30
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-spider-dev.yaml+dev, 1600185717000, length=3001, md5=ccad980b396c0c89946de126cb83303e
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-web-dev.yaml+dev, 1621420163000, length=4957, md5=feb4f11adeb19cf976f211930a82321f
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-web-flow-rules+DEFAULT_GROUP, 1601638284000, length=197, md5=3e8d52b57427ce0cfa8e7e4319a81281
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-web-degrade-rules+DEFAULT_GROUP, 1601636088000, length=115, md5=6409473915d774ed783e427db652f1cc
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-picture-flow-rules+DEFAULT_GROUP, 1601892546000, length=192, md5=3eb13b754d1a8337df6bf4d5c4c77bf2
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-picture-degrade-rules+DEFAULT_GROUP, 1601757162000, length=115, md5=6409473915d774ed783e427db652f1cc
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-search-flow-rules+DEFAULT_GROUP, 1602008379000, length=201, md5=13c8839cd70023e42d6b6b1c5cb9e78c
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-search-degrade-rules+DEFAULT_GROUP, 1602002983000, length=10, md5=504352a1f39e3227c9852aa329c558e3
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-commons.yml+dev, 1604680583000, length=998, md5=3842a2d3bd43296a13701e07f37dbcb6
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-admin-prod.yaml+prod, 1632530443000, length=4216, md5=1f765b0aeb0583161e172bd656dd31b3
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-gateway-prod.yaml+prod, 1607671510000, length=21, md5=cfba5ed8647a0a24f76f188031cf6716
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-monitor-prod.yaml+prod, 1607171188000, length=654, md5=7180ae805fa665251b3bdb2c23317087
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-picture-prod.yaml+prod, 1606896211000, length=2669, md5=331bb5b65b7d80fff17343801db6e6a1
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-search-prod.yaml+prod, 1607571604000, length=1028, md5=4a4ca59769c1668e90593195657941da
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-sms-prod.yaml+prod, 1606896121000, length=1424, md5=093bbd436fc83945446dc3636c61d671
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-spider-prod.yaml+prod, 1605480475000, length=2546, md5=cb6fd0b8ad533cbd0c7f7675ed98ef70
+
+2022-06-16 17:09:42,158 INFO [dump-all-ok] mogu-web-prod.yaml+prod, 1632530470000, length=4945, md5=13138090aabd6d9f5086ca2087d0cc99
+
+2022-06-16 17:24:44,551 INFO [dump-task] add task. groupKey=mogu-admin-dev.yaml+dev+dev, taskKey=mogu-admin-dev.yaml+dev+dev+false+null
+
